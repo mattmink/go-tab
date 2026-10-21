@@ -1,0 +1,183 @@
+{
+ "version": 1,
+ "grouping": true,
+ "size": {
+  "mode": "auto",
+  "step": "m"
+ },
+ "background": null,
+ "groups": [
+  {
+   "id": "g1",
+   "name": "Work"
+  },
+  {
+   "id": "g2",
+   "name": "Reading"
+  },
+  {
+   "id": "g3",
+   "name": "Money"
+  },
+  {
+   "id": "g4",
+   "name": "Shopping"
+  }
+ ],
+ "items": [
+  {
+   "id": "i1",
+   "url": "https://outlook.office.com",
+   "title": "Outlook",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i2",
+   "url": "https://teams.microsoft.com",
+   "title": "Teams",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i3",
+   "url": "https://onedrive.live.com",
+   "title": "OneDrive",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i4",
+   "url": "https://app.asana.com",
+   "title": "Asana",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i5",
+   "url": "https://trello.com",
+   "title": "Trello",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i6",
+   "url": "https://miro.com",
+   "title": "Miro",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i7",
+   "url": "https://www.dropbox.com",
+   "title": "Dropbox",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i8",
+   "url": "https://bitbucket.org",
+   "title": "Bitbucket",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i9",
+   "url": "https://gitlab.com",
+   "title": "GitLab",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i10",
+   "url": "https://vercel.com/dashboard",
+   "title": "Vercel",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i11",
+   "url": "https://dashboard.stripe.com",
+   "title": "Stripe Dashboard",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i12",
+   "url": "https://airtable.com",
+   "title": "Airtable",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i13",
+   "url": "https://www.bbc.co.uk/news",
+   "title": "BBC News",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i14",
+   "url": "https://arstechnica.com",
+   "title": "Ars Technica",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i15",
+   "url": "https://lobste.rs",
+   "title": "Lobsters",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i16",
+   "url": "https://www.reddit.com",
+   "title": "Reddit",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i17",
+   "url": "https://en.wikipedia.org",
+   "title": "Wikipedia",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i18",
+   "url": "https://mint.intuit.com",
+   "title": "Mint",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i19",
+   "url": "https://www.fidelity.com",
+   "title": "Fidelity",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i20",
+   "url": "https://wise.com",
+   "title": "Wise",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i21",
+   "url": "https://www.ebay.com",
+   "title": "eBay",
+   "groupId": "g4",
+   "icon": null
+  },
+  {
+   "id": "i22",
+   "url": "https://www.etsy.com",
+   "title": "Etsy",
+   "groupId": "g4",
+   "icon": null
+  }
+ ]
+}

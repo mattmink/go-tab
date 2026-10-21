@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Group management</title>
+<link rel="stylesheet" href="../speeddial.css">
+<style>body{margin:0}
+a{color:inherit}a:hover{color:inherit}</style>
+</head>
+<body>
+<main class="nt bg-default sz-m editing" style="width: 1440px; height: 900px">
+<div class="editbar" role="toolbar" aria-label="Edit layout">
+<b>Editing layout</b>
+<span class="hint">Drag a group by its handle · Alt + arrows to move a focused group</span>
+<button class="btn btn-glass btn-sm" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" /><path d="M12 11v6M9 14h6" /></svg>Add group</button>
+<button class="btn btn-primary btn-sm" type="button" style="border-radius: 999px; padding: 0 16px">Done</button>
+</div>
+<div class="stage">
+<div class="groups">
+
+<section class="group" aria-label="Work">
+
+
+<h2 class="gh gh-edit"><button class="handle" type="button" aria-label="Reorder group Work"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="9" cy="6" r="1.6" /><circle cx="15" cy="6" r="1.6" /><circle cx="9" cy="12" r="1.6" /><circle cx="15" cy="12" r="1.6" /><circle cx="9" cy="18" r="1.6" /><circle cx="15" cy="18" r="1.6" /></svg></button>Work<button class="gmore" type="button" aria-label="Group options for Work" aria-haspopup="menu" aria-expanded="false"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8" /><circle cx="12" cy="12" r="1.8" /><circle cx="19" cy="12" r="1.8" /></svg></button></h2>
+
+
+<div class="tiles">
+
+<div class="tw"><a class="tile" href="https://example.com" title="Gmail" style="cursor: grab"><span class="ico" style="background: #C5443A" aria-hidden="true">G</span><span class="tl"><span class="tt">Gmail</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Gmail"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Gmail"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Calendar" style="cursor: grab"><span class="ico" style="background: #2F6FD6" aria-hidden="true">C</span><span class="tl"><span class="tt">Calendar</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Calendar"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Calendar"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Drive" style="cursor: grab"><span class="ico" style="background: #1C8C58" aria-hidden="true">D</span><span class="tl"><span class="tt">Drive</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Drive"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Drive"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Slack" style="cursor: grab"><span class="ico" style="background: #4A1D5E" aria-hidden="true">S</span><span class="tl"><span class="tt">Slack</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Slack"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Slack"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Jira" style="cursor: grab"><span class="ico" style="background: #1F5FC9" aria-hidden="true">J</span><span class="tl"><span class="tt">Jira</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Jira"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Jira"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Confluence" style="cursor: grab"><span class="ico" style="background: #174EA6" aria-hidden="true">C</span><span class="tl"><span class="tt">Confluence</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Confluence"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Confluence"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="GitHub" style="cursor: grab"><span class="ico" style="background: #24292F" aria-hidden="true">G</span><span class="tl"><span class="tt">GitHub</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Figma" style="cursor: grab"><span class="ico" style="background: #7B3FE0" aria-hidden="true">F</span><span class="tl"><span class="tt">Figma</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Figma"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Figma"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Notion" style="cursor: grab"><span class="ico" style="background: #2E2E2E" aria-hidden="true">N</span><span class="tl"><span class="tt">Notion</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Notion"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Notion"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Zoom" style="cursor: grab"><span class="ico" style="background: #1E66D0" aria-hidden="true">Z</span><span class="tl"><span class="tt">Zoom</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Zoom"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Zoom"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Linear" style="cursor: grab"><span class="ico" style="background: #4E59C4" aria-hidden="true">L</span><span class="tl"><span class="tt">Linear</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Linear"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Linear"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Salesforce Dashboard" style="cursor: grab"><span class="ico" style="background: #0E78AD" aria-hidden="true">S</span><span class="tl"><span class="tt">Salesforce Dashboard</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Salesforce Dashboard"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Salesforce Dashboard"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><button class="ghost" type="button" aria-label="Add item to Work"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg><span>Add</span></button></div>
+</div>
+</section>
+
+<section class="group" aria-label="Daily">
+
+<h2 class="gh gh-edit" style="padding: 2px"><label for="rename-daily" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Group name</label><input class="gh-input" id="rename-daily" type="text" value="Daily reads"><span style="font-size: 12px; font-weight: 500; color: var(--ink-2); padding: 0 8px 0 6px">Enter to save · Esc to cancel</span></h2>
+
+
+
+<div class="tiles">
+
+<div class="tw"><a class="tile" href="https://example.com" title="The Verge" style="cursor: grab"><span class="ico" style="background: #B80F5C" aria-hidden="true">V</span><span class="tl"><span class="tt">The Verge</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit The Verge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete The Verge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Weather" style="cursor: grab"><span class="ico" style="background: #B87405" aria-hidden="true">W</span><span class="tl"><span class="tt">Weather</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Weather"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Weather"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Hacker News" style="cursor: grab"><span class="ico" style="background: #C94F12" aria-hidden="true">H</span><span class="tl"><span class="tt">Hacker News</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Hacker News"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Hacker News"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="YouTube" style="cursor: grab"><span class="ico" style="background: #C21C13" aria-hidden="true">Y</span><span class="tl"><span class="tt">YouTube</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit YouTube"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete YouTube"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Reddit" style="cursor: grab"><span class="ico" style="background: #CC3700" aria-hidden="true">R</span><span class="tl"><span class="tt">Reddit</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Reddit"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Reddit"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><button class="ghost" type="button" aria-label="Add item to Daily"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg><span>Add</span></button></div>
+</div>
+</section>
+
+<section class="group" aria-label="Money">
+
+
+<h2 class="gh gh-edit"><button class="handle" type="button" aria-label="Reorder group Money"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="9" cy="6" r="1.6" /><circle cx="15" cy="6" r="1.6" /><circle cx="9" cy="12" r="1.6" /><circle cx="15" cy="12" r="1.6" /><circle cx="9" cy="18" r="1.6" /><circle cx="15" cy="18" r="1.6" /></svg></button>Money<button class="gmore is-on" type="button" aria-label="Group options for Money" aria-haspopup="menu" aria-expanded="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8" /><circle cx="12" cy="12" r="1.8" /><circle cx="19" cy="12" r="1.8" /></svg></button></h2>
+
+
+<div class="menu" role="menu" aria-label="Money group options" style="top: 36px; left: 0">
+<button class="mi" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>Rename</button>
+<button class="mi is-active" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" /></svg>Move up<span class="kbd">Alt ↑</span></button>
+<button class="mi" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>Move down<span class="kbd">Alt ↓</span></button>
+<button class="mi" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>Add item here</button>
+<div class="msep" role="separator"></div>
+<button class="mi danger" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg>Delete group…</button>
+</div>
+
+<div class="tiles">
+
+<div class="tw"><a class="tile" href="https://example.com" title="Chase" style="cursor: grab"><span class="ico" style="background: #0F5E9C" aria-hidden="true">C</span><span class="tl"><span class="tt">Chase</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Chase"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Chase"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Vanguard" style="cursor: grab"><span class="ico" style="background: #8A1420" aria-hidden="true">V</span><span class="tl"><span class="tt">Vanguard</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Vanguard"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Vanguard"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Expensify" style="cursor: grab"><span class="ico" style="background: #0B1B34" aria-hidden="true">E</span><span class="tl"><span class="tt">Expensify</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Expensify"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Expensify"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><button class="ghost" type="button" aria-label="Add item to Money"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg><span>Add</span></button></div>
+</div>
+</section>
+
+<section class="group" aria-label="Shopping">
+
+
+<h2 class="gh gh-edit"><button class="handle" type="button" aria-label="Reorder group Shopping"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="9" cy="6" r="1.6" /><circle cx="15" cy="6" r="1.6" /><circle cx="9" cy="12" r="1.6" /><circle cx="15" cy="12" r="1.6" /><circle cx="9" cy="18" r="1.6" /><circle cx="15" cy="18" r="1.6" /></svg></button>Shopping<button class="gmore" type="button" aria-label="Group options for Shopping" aria-haspopup="menu" aria-expanded="false"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8" /><circle cx="12" cy="12" r="1.8" /><circle cx="19" cy="12" r="1.8" /></svg></button></h2>
+
+
+<div class="tiles">
+
+<div class="tw"><a class="tile" href="https://example.com" title="Amazon" style="cursor: grab"><span class="ico" style="background: #232F3E" aria-hidden="true">A</span><span class="tl"><span class="tt">Amazon</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Amazon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Amazon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><a class="tile" href="https://example.com" title="Costco" style="cursor: grab"><span class="ico" style="background: #005197" aria-hidden="true">C</span><span class="tl"><span class="tt">Costco</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Costco"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del" type="button" aria-label="Delete Costco"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+
+<div class="tw"><button class="ghost" type="button" aria-label="Add item to Shopping"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg><span>Add</span></button></div>
+</div>
+</section>
+
+</div>
+</div>
+</main>
+</body>
+</html>

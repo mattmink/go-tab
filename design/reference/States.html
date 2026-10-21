@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tile states</title>
+<link rel="stylesheet" href="../speeddial.css">
+<style>body{margin:0}
+a{color:inherit}a:hover{color:inherit}</style>
+</head>
+<body>
+<main class="nt bg-default sz-m" style="width: 1440px; height: 600px; display: flex; align-items: center; justify-content: center">
+<div style="display: flex; align-items: flex-start; gap: 36px">
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0">
+<div style="height: 300px; padding-top: 16px; box-sizing: border-box">
+<div class="tw"><a class="tile" href="https://mail.google.com"><span class="ico" style="background: #C5443A" aria-hidden="true">G</span><span class="tl"><span class="tt">Gmail</span></span></a></div>
+</div>
+<span class="lab"><b>Rest</b></span>
+<span class="labsub" style="margin-top: 6px; max-width: 168px">No controls. Click opens the link; middle-click or ⌘/Ctrl-click opens a new tab.</span>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center">
+<div style="height: 300px; padding-top: 16px; box-sizing: border-box">
+<div class="tw is-hover"><a class="tile" href="https://mail.google.com"><span class="ico" style="background: #C5443A" aria-hidden="true">G</span><span class="tl"><span class="tt">Gmail</span></span></a>
+</div>
+</div>
+<span class="lab"><b>Hover</b></span>
+<span class="labsub" style="margin-top: 6px; max-width: 168px">Lifts 2px, glass darkens to 70%. No edit or delete controls outside edit mode.</span>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center">
+<div style="height: 300px; padding-top: 16px; box-sizing: border-box">
+<div class="tw is-focus"><a class="tile" href="https://mail.google.com"><span class="ico" style="background: #C5443A" aria-hidden="true">G</span><span class="tl"><span class="tt">Gmail</span></span></a></div>
+</div>
+<span class="lab"><b>Keyboard focus</b></span>
+<span class="labsub" style="margin-top: 6px; max-width: 168px">2px white + 2px blue ring, visible on any background. Arrow keys move between tiles.</span>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center">
+<div style="height: 300px; padding-top: 16px; box-sizing: border-box; position: relative">
+<div class="tw is-focus"><a class="tile" href="https://mail.google.com"><span class="ico" style="background: #C5443A" aria-hidden="true">G</span><span class="tl"><span class="tt">Gmail</span></span></a></div>
+<div class="menu" role="menu" aria-label="Gmail actions" style="top: 128px; left: 0">
+<button class="mi" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><path d="M15 3h6v6" /><path d="M10 14L21 3" /></svg>Open in new tab</button>
+<button class="mi is-active" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>Edit…<span class="kbd">E</span></button>
+<button class="mi" type="button" role="menuitem" aria-haspopup="menu"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" /></svg>Move to group<span class="kbd"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6" /></svg></span></button>
+<div class="msep" role="separator"></div>
+<button class="mi danger" type="button" role="menuitem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg>Delete…<span class="kbd">Del</span></button>
+</div>
+</div>
+<span class="lab"><b>Actions menu</b></span>
+<span class="labsub" style="margin-top: 6px; max-width: 168px">Right-click, Shift+F10 or the Menu key on a focused tile. The keyboard path to edit and delete without hover.</span>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center">
+<div style="height: 300px; padding-top: 16px; box-sizing: border-box">
+<div class="tw editing"><a class="tile" href="https://mail.google.com"><span class="ico" style="background: #C5443A" aria-hidden="true">G</span><span class="tl"><span class="tt">Gmail</span></span></a>
+<div class="tctl"><button class="mbtn" type="button" aria-label="Edit Gmail"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button><button class="mbtn del is-focus" type="button" aria-label="Delete Gmail"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /></svg></button></div>
+</div>
+</div>
+<span class="lab"><b>Edit mode, focus on Delete</b></span>
+<span class="labsub" style="margin-top: 6px; max-width: 168px">In edit mode the buttons are always visible and in the tab order: tile, Edit, Delete.</span>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center">
+<div style="height: 300px; padding-top: 0; box-sizing: border-box">
+<section class="group is-hover" aria-label="Shopping">
+<h2 class="gh">Shopping</h2>
+<div class="tiles">
+<div class="tw"><a class="tile" href="https://amazon.com"><span class="ico" style="background: #232F3E" aria-hidden="true">A</span><span class="tl"><span class="tt">Amazon</span></span></a></div>
+<div class="tw"><a class="tile" href="https://costco.com"><span class="ico" style="background: #005197" aria-hidden="true">C</span><span class="tl"><span class="tt">Costco</span></span></a></div>
+<div class="tw"><button class="ghost on-hover" type="button" aria-label="Add item to Shopping"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg><span>Add</span></button></div>
+</div>
+</section>
+</div>
+<span class="lab"><b>Add item</b></span>
+<span class="labsub" style="margin-top: 6px; max-width: 168px">A dashed ghost tile appears at the end of a group on hover or focus. It is always visible in edit mode.</span>
+</div>
+
+</div>
+</main>
+</body>
+</html>

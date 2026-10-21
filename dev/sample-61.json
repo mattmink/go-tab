@@ -1,0 +1,464 @@
+{
+ "version": 1,
+ "grouping": true,
+ "size": {
+  "mode": "auto",
+  "step": "m"
+ },
+ "background": null,
+ "groups": [
+  {
+   "id": "g1",
+   "name": "Work"
+  },
+  {
+   "id": "g2",
+   "name": "Dev"
+  },
+  {
+   "id": "g3",
+   "name": "News"
+  },
+  {
+   "id": "g4",
+   "name": "Home"
+  },
+  {
+   "id": "g5",
+   "name": "Media"
+  },
+  {
+   "id": "g6",
+   "name": "Money"
+  }
+ ],
+ "items": [
+  {
+   "id": "i1",
+   "url": "https://outlook.office.com",
+   "title": "Outlook",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i2",
+   "url": "https://teams.microsoft.com",
+   "title": "Teams",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i3",
+   "url": "https://onedrive.live.com",
+   "title": "OneDrive",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i4",
+   "url": "https://app.asana.com",
+   "title": "Asana",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i5",
+   "url": "https://trello.com",
+   "title": "Trello",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i6",
+   "url": "https://miro.com",
+   "title": "Miro",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i7",
+   "url": "https://www.dropbox.com",
+   "title": "Dropbox",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i8",
+   "url": "https://bitbucket.org",
+   "title": "Bitbucket",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i9",
+   "url": "https://gitlab.com",
+   "title": "GitLab",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i10",
+   "url": "https://vercel.com/dashboard",
+   "title": "Vercel",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i11",
+   "url": "https://dashboard.stripe.com",
+   "title": "Stripe Dashboard",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i12",
+   "url": "https://airtable.com",
+   "title": "Airtable",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i13",
+   "url": "https://www.bbc.co.uk/news",
+   "title": "BBC News",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i14",
+   "url": "https://arstechnica.com",
+   "title": "Ars Technica",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i15",
+   "url": "https://lobste.rs",
+   "title": "Lobsters",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i16",
+   "url": "https://www.reddit.com",
+   "title": "Reddit",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i17",
+   "url": "https://en.wikipedia.org",
+   "title": "Wikipedia",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i18",
+   "url": "https://mint.intuit.com",
+   "title": "Mint",
+   "groupId": "g1",
+   "icon": null
+  },
+  {
+   "id": "i19",
+   "url": "https://www.fidelity.com",
+   "title": "Fidelity",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i20",
+   "url": "https://wise.com",
+   "title": "Wise",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i21",
+   "url": "https://www.ebay.com",
+   "title": "eBay",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i22",
+   "url": "https://www.etsy.com",
+   "title": "Etsy",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i23",
+   "url": "https://developer.mozilla.org",
+   "title": "MDN",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i24",
+   "url": "https://stackoverflow.com",
+   "title": "Stack Overflow",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i25",
+   "url": "https://www.npmjs.com",
+   "title": "npm",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i26",
+   "url": "https://caniuse.com",
+   "title": "Can I use",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i27",
+   "url": "https://sentry.io",
+   "title": "Sentry",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i28",
+   "url": "https://grafana.com",
+   "title": "Grafana",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i29",
+   "url": "https://codepen.io",
+   "title": "CodePen",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i30",
+   "url": "https://regex101.com",
+   "title": "Regex101",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i31",
+   "url": "https://web.dev",
+   "title": "web.dev",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i32",
+   "url": "https://bundlephobia.com",
+   "title": "Bundlephobia",
+   "groupId": "g2",
+   "icon": null
+  },
+  {
+   "id": "i33",
+   "url": "https://deno.com",
+   "title": "Deno",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i34",
+   "url": "https://doc.rust-lang.org",
+   "title": "Rust docs",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i35",
+   "url": "https://docs.python.org/3",
+   "title": "Python docs",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i36",
+   "url": "https://go.dev/doc",
+   "title": "Go docs",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i37",
+   "url": "https://www.theguardian.com",
+   "title": "The Guardian",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i38",
+   "url": "https://www.reuters.com",
+   "title": "Reuters",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i39",
+   "url": "https://apnews.com",
+   "title": "AP News",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i40",
+   "url": "https://www.npr.org",
+   "title": "NPR",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i41",
+   "url": "https://www.axios.com",
+   "title": "Axios",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i42",
+   "url": "https://www.bloomberg.com",
+   "title": "Bloomberg",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i43",
+   "url": "https://www.ft.com",
+   "title": "Financial Times",
+   "groupId": "g3",
+   "icon": null
+  },
+  {
+   "id": "i44",
+   "url": "https://www.theatlantic.com",
+   "title": "The Atlantic",
+   "groupId": "g4",
+   "icon": null
+  },
+  {
+   "id": "i45",
+   "url": "https://account.meethue.com",
+   "title": "Hue",
+   "groupId": "g4",
+   "icon": null
+  },
+  {
+   "id": "i46",
+   "url": "https://home.nest.com",
+   "title": "Nest",
+   "groupId": "g4",
+   "icon": null
+  },
+  {
+   "id": "i47",
+   "url": "https://ring.com",
+   "title": "Ring",
+   "groupId": "g4",
+   "icon": null
+  },
+  {
+   "id": "i48",
+   "url": "http://homeassistant.local:8123",
+   "title": "Home Assistant",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i49",
+   "url": "https://www.youtube.com",
+   "title": "YouTube",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i50",
+   "url": "https://open.spotify.com",
+   "title": "Spotify",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i51",
+   "url": "https://www.netflix.com",
+   "title": "Netflix",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i52",
+   "url": "https://www.twitch.tv",
+   "title": "Twitch",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i53",
+   "url": "https://soundcloud.com",
+   "title": "SoundCloud",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i54",
+   "url": "https://letterboxd.com",
+   "title": "Letterboxd",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i55",
+   "url": "https://www.goodreads.com",
+   "title": "Goodreads",
+   "groupId": "g5",
+   "icon": null
+  },
+  {
+   "id": "i56",
+   "url": "https://app.plex.tv",
+   "title": "Plex",
+   "groupId": "g6",
+   "icon": null
+  },
+  {
+   "id": "i57",
+   "url": "https://investor.vanguard.com",
+   "title": "Vanguard",
+   "groupId": "g6",
+   "icon": null
+  },
+  {
+   "id": "i58",
+   "url": "https://www.schwab.com",
+   "title": "Schwab",
+   "groupId": "g6",
+   "icon": null
+  },
+  {
+   "id": "i59",
+   "url": "https://app.ynab.com",
+   "title": "YNAB",
+   "groupId": "g6",
+   "icon": null
+  },
+  {
+   "id": "i60",
+   "url": "https://monzo.com",
+   "title": "Monzo",
+   "groupId": "g6",
+   "icon": null
+  },
+  {
+   "id": "i61",
+   "url": "https://www.coinbase.com",
+   "title": "Coinbase",
+   "groupId": "g6",
+   "icon": null
+  }
+ ]
+}

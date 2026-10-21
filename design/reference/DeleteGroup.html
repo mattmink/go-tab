@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete group confirmation</title>
+<link rel="stylesheet" href="../speeddial.css">
+<style>body{margin:0}
+a{color:inherit}a:hover{color:inherit}</style>
+</head>
+<body>
+<main class="nt bg-default sz-m" style="width: 1440px; height: 900px">
+<div class="stage" aria-hidden="true">
+<div class="groups">
+
+<section class="group"><h2 class="gh">Work</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #C5443A">G</span><span class="tl"><span class="tt">Gmail</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #2F6FD6">C</span><span class="tl"><span class="tt">Calendar</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #1C8C58">D</span><span class="tl"><span class="tt">Drive</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #4A1D5E">S</span><span class="tl"><span class="tt">Slack</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #1F5FC9">J</span><span class="tl"><span class="tt">Jira</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #174EA6">C</span><span class="tl"><span class="tt">Confluence</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #24292F">G</span><span class="tl"><span class="tt">GitHub</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #7B3FE0">F</span><span class="tl"><span class="tt">Figma</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #2E2E2E">N</span><span class="tl"><span class="tt">Notion</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #1E66D0">Z</span><span class="tl"><span class="tt">Zoom</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #4E59C4">L</span><span class="tl"><span class="tt">Linear</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #0E78AD">S</span><span class="tl"><span class="tt">Salesforce Dashboard</span></span></a></div>
+</div></section>
+
+<section class="group"><h2 class="gh">Daily</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #B80F5C">V</span><span class="tl"><span class="tt">The Verge</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #B87405">W</span><span class="tl"><span class="tt">Weather</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #C94F12">H</span><span class="tl"><span class="tt">Hacker News</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #C21C13">Y</span><span class="tl"><span class="tt">YouTube</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #CC3700">R</span><span class="tl"><span class="tt">Reddit</span></span></a></div>
+</div></section>
+
+<section class="group"><h2 class="gh">Money</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #0F5E9C">C</span><span class="tl"><span class="tt">Chase</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #8A1420">V</span><span class="tl"><span class="tt">Vanguard</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #0B1B34">E</span><span class="tl"><span class="tt">Expensify</span></span></a></div>
+</div></section>
+
+<section class="group"><h2 class="gh">Shopping</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #232F3E">A</span><span class="tl"><span class="tt">Amazon</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #005197">C</span><span class="tl"><span class="tt">Costco</span></span></a></div>
+</div></section>
+
+</div>
+</div>
+<div class="scrim">
+<form class="dialog" role="alertdialog" aria-modal="true" aria-labelledby="dlg-t" aria-describedby="dlg-d">
+<div class="dh"><div><h2 id="dlg-t">Delete the “Money” group?</h2><p class="dbody" id="dlg-d">It still has <b>3 items</b>: Chase, Vanguard and Expensify. What should happen to them?</p></div></div>
+<fieldset class="choices" style="border: 0; margin: 0; padding: 0">
+<legend style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">What to do with the items</legend>
+<label class="choice is-sel"><input type="radio" name="items" value="move" checked><span><b>Move them to Ungrouped</b><span>Keeps the links. You can sort them into other groups later.</span></span></label>
+<label class="choice"><input type="radio" name="items" value="delete"><span><b>Delete them too</b><span>Removes the group and all 3 links. This can’t be undone.</span></span></label>
+</fieldset>
+<div class="df">
+<button class="btn btn-secondary is-focus" type="button">Cancel</button>
+<button class="btn btn-danger" type="submit">Delete group</button>
+</div>
+</form>
+</div>
+</main>
+</body>
+</html>

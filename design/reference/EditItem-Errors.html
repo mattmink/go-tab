@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add item, validation errors</title>
+<link rel="stylesheet" href="../speeddial.css">
+<style>body{margin:0}
+a{color:inherit}a:hover{color:inherit}</style>
+</head>
+<body>
+<main class="nt bg-default sz-m" style="width: 1440px; height: 900px">
+<div class="stage" aria-hidden="true">
+<div class="groups">
+
+<section class="group"><h2 class="gh">Work</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #C5443A">G</span><span class="tl"><span class="tt">Gmail</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #2F6FD6">C</span><span class="tl"><span class="tt">Calendar</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #1C8C58">D</span><span class="tl"><span class="tt">Drive</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #4A1D5E">S</span><span class="tl"><span class="tt">Slack</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #1F5FC9">J</span><span class="tl"><span class="tt">Jira</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #174EA6">C</span><span class="tl"><span class="tt">Confluence</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #24292F">G</span><span class="tl"><span class="tt">GitHub</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #7B3FE0">F</span><span class="tl"><span class="tt">Figma</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #2E2E2E">N</span><span class="tl"><span class="tt">Notion</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #1E66D0">Z</span><span class="tl"><span class="tt">Zoom</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #4E59C4">L</span><span class="tl"><span class="tt">Linear</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #0E78AD">S</span><span class="tl"><span class="tt">Salesforce Dashboard</span></span></a></div>
+</div></section>
+
+<section class="group"><h2 class="gh">Daily</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #B80F5C">V</span><span class="tl"><span class="tt">The Verge</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #B87405">W</span><span class="tl"><span class="tt">Weather</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #C94F12">H</span><span class="tl"><span class="tt">Hacker News</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #C21C13">Y</span><span class="tl"><span class="tt">YouTube</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #CC3700">R</span><span class="tl"><span class="tt">Reddit</span></span></a></div>
+</div></section>
+
+<section class="group"><h2 class="gh">Money</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #0F5E9C">C</span><span class="tl"><span class="tt">Chase</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #8A1420">V</span><span class="tl"><span class="tt">Vanguard</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #0B1B34">E</span><span class="tl"><span class="tt">Expensify</span></span></a></div>
+</div></section>
+
+<section class="group"><h2 class="gh">Shopping</h2><div class="tiles">
+<div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #232F3E">A</span><span class="tl"><span class="tt">Amazon</span></span></a></div><div class="tw"><a class="tile" href="https://example.com" tabindex="-1"><span class="ico" style="background: #005197">C</span><span class="tl"><span class="tt">Costco</span></span></a></div>
+</div></section>
+
+</div>
+</div>
+<div class="scrim">
+<form class="dialog" role="dialog" aria-modal="true" aria-labelledby="dlg-t" novalidate>
+<div class="dh"><div><h2 id="dlg-t">Add item</h2><p>Fix the highlighted fields to add this link.</p></div><button class="xbtn" type="button" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg></button></div>
+<div class="fields">
+<div class="field"><label class="flabel" for="f-url">Link</label><input class="input is-error is-focus" id="f-url" type="url" value="htps//theverge" aria-invalid="true" aria-describedby="e-url"><span class="err" id="e-url"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" /></svg>That isn’t a web address. Try something like https://theverge.com</span></div>
+<div class="field"><label class="flabel" for="f-title">Title <span class="opt">(optional)</span></label><input class="input" id="f-title" type="text" placeholder="Taken from the page if left empty"></div>
+<div class="field"><label class="flabel" for="f-group">Group</label><div class="selectwrap"><select class="input" id="f-group"><option>Daily</option><option>Work</option><option>Money</option><option>Shopping</option><option>Ungrouped</option><option>New group…</option></select><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg></div></div>
+<div class="field"><span class="flabel" id="f-icon">Icon</span>
+<div class="iconfield" role="group" aria-labelledby="f-icon" style="flex-direction: column; align-items: stretch; gap: 12px">
+<div style="display: flex; gap: 14px; align-items: center">
+<span class="iconprev" style="background: var(--surface-3); color: var(--text-2)" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M2 12h20" /><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z" /></svg></span>
+<div class="iconmeta"><b>Site icon</b><span>Appears once the link is valid.</span></div>
+</div>
+<div class="seg full" role="group" aria-label="Icon source"><button type="button" aria-pressed="false">Image URL</button><button type="button" aria-pressed="true">Upload</button></div>
+<button class="dropzone" type="button" style="border-color: var(--danger-text)" aria-describedby="e-file"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><path d="M17 8l-5-5-5 5" /><path d="M12 3v12" /></svg><span>Drop an image here or <b>choose a file</b></span></button>
+<span class="err" id="e-file"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" /></svg>verge-logo.tiff can’t be used. Choose a PNG, JPG, SVG, WebP or ICO under 1 MB.</span>
+</div>
+</div>
+</div>
+<div class="df">
+<span class="spacer"></span>
+<button class="btn btn-secondary" type="button">Cancel</button>
+<button class="btn btn-primary" type="submit">Add item</button>
+</div>
+</form>
+</div>
+</main>
+</body>
+</html>
